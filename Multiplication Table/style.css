@@ -74,3 +74,47 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+@media (max-width: 768px) { /* Tablet */
+    section {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    section div {
+        margin: 10px 0;
+    }
+
+    section input[type="number"],
+    section input[type="button"],
+    section select {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media (max-width: 480px) { /* Mobile */
+    header {
+        padding: 15px 0;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    section input[type="number"],
+    section input[type="button"],
+    section select {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    section input[type="button"] {
+        padding: 8px 16px;
+    }
+
+    footer {
+        padding: 8px 0;
+    }
+}
