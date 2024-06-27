@@ -4,11 +4,11 @@ This project generates a multiplication table for a given number inputted by the
 
 Features:
 
-User can input a number and generate a multiplication table.
+- User can input a number and generate a multiplication table.
 
-The results are displayed in a clean, easy-to-read dropdown list.
+- The results are displayed in a clean, easy-to-read dropdown list.
 
-Responsive and modern design.
+- Responsive and modern design.
 
 Technologies Used:
 
